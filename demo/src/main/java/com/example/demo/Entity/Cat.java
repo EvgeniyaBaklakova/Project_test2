@@ -20,6 +20,8 @@ public class Cat {
 
     private String name;
 
+    private String gender;
+
     private LocalDate birthDay;
 
     private LocalDateTime createdAt;
