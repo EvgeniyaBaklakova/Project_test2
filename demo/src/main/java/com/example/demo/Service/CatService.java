@@ -24,6 +24,7 @@ public class CatService {
                 .setId(UUID.randomUUID().toString())
                 .setCreatedAt(LocalDateTime.now());
         return catRepository.save(cat);
+        //
     }
 
     public List<Cat>  getAll(){
